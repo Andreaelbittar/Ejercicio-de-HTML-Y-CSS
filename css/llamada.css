@@ -1,0 +1,40 @@
+.llamada  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--background-blanco);
+    text-align: center;
+    
+    /*background-color: var(--background-llamada-mobile);*/
+
+    padding-top: 12.25rem;
+    padding-bottom: 2.5rem;
+}
+
+.llamada__titulo {
+    font-family: var(--montserrat);
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    margin-bottom: 1.5rem;
+}
+
+.llamada__texto {
+    font-size: 1.25rem;
+    line-height: normal;
+    padding: 0 200px;
+
+    margin: 0 auto 2.5rem;
+}
+
+.llamada__boton {
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 16px;
+width: 100%;
+}
